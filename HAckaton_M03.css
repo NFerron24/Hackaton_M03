@@ -1,0 +1,80 @@
+.body {
+  background-color: #f7f6ef;
+  height: 0px;
+  width: 0px;
+}
+
+#blue__button {
+  background-color: blue;
+}
+
+#green__button {
+  background-color: green;
+}
+
+#red__button {
+  background-color: red;
+}
+
+#yellow__button {
+  background-color: yellow;
+}
+
+.side__menu {
+  display: block;
+  position: fixed;
+  height: 500px;
+  width: 600px;
+  background-color: rgba(255, 205, 202, 0.55);
+  position: aboslute;
+  top: 0px;
+  left: -460px;
+  z-index: -1;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.toggler {
+  display: block;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 280%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1000;
+}
+
+a {
+  border-style: solid;
+  border-radius: 10px;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  width: 200px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hide__menu {
+  position: absolute;
+  left: -90px;
+}
+/*# sourceMappingURL=HAckaton_M03.css.map */
